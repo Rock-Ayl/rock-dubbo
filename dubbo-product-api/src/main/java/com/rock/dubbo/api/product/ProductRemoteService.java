@@ -6,7 +6,7 @@ package com.rock.dubbo.api.product;
  * @Author ayl
  * @Date 2024-10-30
  */
-public interface ProductServiceAPI {
+public interface ProductRemoteService {
 
     /**
      * 测试

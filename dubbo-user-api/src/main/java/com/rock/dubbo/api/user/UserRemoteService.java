@@ -6,7 +6,7 @@ package com.rock.dubbo.api.user;
  * @Author ayl
  * @Date 2024-10-30
  */
-public interface UserServiceAPI {
+public interface UserRemoteService {
 
     /**
      * 测试
