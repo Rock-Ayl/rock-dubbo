@@ -13,7 +13,8 @@
     <!--子模块-->
     <modules>
         <module>dubbo-common</module>
-        <module>dubbo-api</module>
+        <module>dubbo-user</module>
+        <module>dubbo-user-api</module>
     </modules>
 
     <!--统一控制依赖版本-->
