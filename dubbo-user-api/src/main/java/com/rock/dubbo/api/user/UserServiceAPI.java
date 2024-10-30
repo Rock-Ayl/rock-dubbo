@@ -1,12 +1,12 @@
-package com.rock.dubbo.product.interfaces;
+package com.rock.dubbo.api.user;
 
 /**
- * 产品服务远程接口
+ * 用户服务远程接口
  *
  * @Author ayl
  * @Date 2024-10-30
  */
-public interface ProductServiceAPI {
+public interface UserServiceAPI {
 
     /**
      * 测试
