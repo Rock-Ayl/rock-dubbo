@@ -1,3 +1,5 @@
+package com.rock.dubbo.product.interfaces;
+
 /**
  * 产品服务远程接口
  *
