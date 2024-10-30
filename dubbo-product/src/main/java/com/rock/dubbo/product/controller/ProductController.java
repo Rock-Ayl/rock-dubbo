@@ -15,9 +15,9 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
-    @GetMapping("/helloWorld")
-    public String helloWorld() {
-        return productService.helloWorld();
+    @GetMapping("/getUserData")
+    public String getUserData() {
+        return productService.getUserData();
     }
 
 }

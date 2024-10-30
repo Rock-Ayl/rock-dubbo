@@ -7,6 +7,6 @@ public interface ProductService {
      *
      * @return
      */
-    String helloWorld();
+    String getUserData();
 
 }
