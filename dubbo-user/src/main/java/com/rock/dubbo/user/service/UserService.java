@@ -7,6 +7,6 @@ public interface UserService {
      *
      * @return
      */
-    String helloWorld();
+    String getProductData();
 
 }

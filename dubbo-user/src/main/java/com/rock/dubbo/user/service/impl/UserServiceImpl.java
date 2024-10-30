@@ -13,7 +13,7 @@ public class UserServiceImpl implements UserService {
     @Reference(interfaceClass = ProductRemoteService.class, version = "1.0.0")
     private ProductRemoteService productRemoteService;
 
-    public String helloWorld() {
+    public String getProductData() {
         //实现
         return productRemoteService.helloWorld();
     }

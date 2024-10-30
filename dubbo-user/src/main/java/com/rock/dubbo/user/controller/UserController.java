@@ -15,9 +15,9 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/helloWorld")
-    public String helloWorld() {
-        return userService.helloWorld();
+    @GetMapping("/getProductData")
+    public String getProductData() {
+        return userService.getProductData();
     }
 
 }
