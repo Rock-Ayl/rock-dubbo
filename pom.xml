@@ -13,13 +13,14 @@
     <!--子模块-->
     <modules>
         <module>dubbo-common</module>
+        <module>dubbo-api</module>
     </modules>
 
     <!--统一控制依赖版本-->
     <dependencyManagement>
 
         <dependencies>
-            
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
