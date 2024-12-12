@@ -15,7 +15,10 @@ import org.springframework.stereotype.Component;
  * 容错机制 设置为 重试,重试次数=3
  */
 @DubboService(loadbalance = "roundrobin", cluster = "Failover", retries = 3)
-//该注解,用于自动刷新@Value,如果nacos配置中心重新发布,会自动刷新
+/**
+ * 该注解,用于自动刷新 {@link Value} 的属性值.
+ * 如果nacos配置中心重新发布,会自动刷新
+ */
 @RefreshScope
 public class UserRemoteServiceImpl implements UserRemoteService {
 
