@@ -10,7 +10,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class ProductServiceImpl implements ProductService {
 
-    @DubboReference
+    /**
+     * 服务注入
+     * 并指定服务分组,不同分组无法调用
+     */
+    @DubboReference(group = "groupA")
     private UserRemoteService userRemoteService;
 
     public String getUserData() {
