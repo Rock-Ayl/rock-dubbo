@@ -13,8 +13,9 @@ import org.springframework.stereotype.Component;
  * 该注解,用于指定dubbo服务实现
  * 负载均衡 设置 轮询(roundrobin)
  * 容错机制 设置为 重试(Failover),重试次数=3
+ * 设置超时时间=3秒
  */
-@DubboService(loadbalance = "roundrobin", cluster = "Failover", retries = 3)
+@DubboService(loadbalance = "roundrobin", cluster = "Failover", retries = 3, timeout = 3000)
 /**
  * 该注解,用于自动刷新 {@link Value} 的属性值.
  * 如果nacos配置中心重新发布,会自动刷新
