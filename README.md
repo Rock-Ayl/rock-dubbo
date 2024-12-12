@@ -9,6 +9,6 @@
 ## 步骤
 
 1. 本地启动 nacos ,单机的就行,如果是默认配置就不需要修改配置文件.
-2. 同时启动 `UserApplication.class` & `UserApplication.class`
+2. 同时启动 `UserApplication.class` & `ProductApplication.class`
 3. 调用接口 `Get http://127.0.0.1:9091/product/getUserData`,执行远程的调用
 4. 自己看代码,代码不多,全是注释.
