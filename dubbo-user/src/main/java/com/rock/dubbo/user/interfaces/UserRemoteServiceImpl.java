@@ -9,8 +9,12 @@ import org.springframework.stereotype.Component;
 
 @Slf4j
 @Component
-//该注解,用于指定dubbo服务实现,并设置为 负载均衡 为 轮询
-@DubboService(loadbalance = "roundrobin")
+/**
+ * 该注解,用于指定dubbo服务实现
+ * 负载均衡 设置 轮询
+ * 容错机制 设置为 重试,重试次数=3
+ */
+@DubboService(loadbalance = "roundrobin", cluster = "Failover", retries = 3)
 //该注解,用于自动刷新@Value,如果nacos配置中心重新发布,会自动刷新
 @RefreshScope
 public class UserRemoteServiceImpl implements UserRemoteService {
