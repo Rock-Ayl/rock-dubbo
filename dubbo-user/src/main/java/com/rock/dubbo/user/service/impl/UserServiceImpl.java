@@ -10,7 +10,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserServiceImpl implements UserService {
 
-    @DubboReference
+    /**
+     * 服务注入,并指定 负载均衡 为 轮询
+     */
+    @DubboReference(loadbalance = "roundrobin")
     private ProductRemoteService productRemoteService;
 
     public String getProductData() {
