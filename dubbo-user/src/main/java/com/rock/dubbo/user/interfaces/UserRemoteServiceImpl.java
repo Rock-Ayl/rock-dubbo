@@ -11,8 +11,8 @@ import org.springframework.stereotype.Component;
 @Component
 /**
  * 该注解,用于指定dubbo服务实现
- * 负载均衡 设置 轮询
- * 容错机制 设置为 重试,重试次数=3
+ * 负载均衡 设置 轮询(roundrobin)
+ * 容错机制 设置为 重试(Failover),重试次数=3
  */
 @DubboService(loadbalance = "roundrobin", cluster = "Failover", retries = 3)
 /**
