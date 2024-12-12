@@ -24,8 +24,8 @@ import org.springframework.stereotype.Component;
 public class UserRemoteServiceImpl implements UserRemoteService {
 
     /**
-     * 用来测试 nacos 作为配置中心,如果开启,一定要有对应的配置中心-发布配置
-     * 注意,配置的dataId,要与 bootstrap.properties 中的 {spring.application.name} 保持一致
+     * todo 如果想要用它测试 nacos 作为配置中心,把注释取消,一定要有对应的配置中心-发布配置
+     * todo 注意:配置的dataId,要与 bootstrap.properties 中的 {spring.application.name} 保持一致
      */
     //@Value(value = "${nacos.config.testConfigCenter}")
     private String testConfigCenter;
