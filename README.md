@@ -6,6 +6,14 @@
 
 目的:只需要启动 nacos 单机,即可轻松入门` spring + dubbo + nacos `.
 
+## 环境
+
+Java 8
+
+Maven
+
+一个单机本地`nacos`
+
 ## 步骤
 
 1. 本地启动 nacos ,单机的就行,如果是默认配置就不需要修改配置文件.
