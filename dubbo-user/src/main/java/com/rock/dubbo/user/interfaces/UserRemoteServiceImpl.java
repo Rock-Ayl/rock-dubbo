@@ -1,13 +1,11 @@
 package com.rock.dubbo.user.interfaces;
 
 import com.rock.dubbo.api.user.UserRemoteService;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.DubboService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
-@Slf4j
 @Component
 /**
  * 该注解,用于指定dubbo服务实现
