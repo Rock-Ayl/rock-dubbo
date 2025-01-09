@@ -15,4 +15,12 @@ public interface UserRemoteService {
      */
     String helloWorld();
 
+    /**
+     * 测试2
+     *
+     * @param word 测试单词
+     * @return
+     */
+    String helloWorld2(String word);
+
 }

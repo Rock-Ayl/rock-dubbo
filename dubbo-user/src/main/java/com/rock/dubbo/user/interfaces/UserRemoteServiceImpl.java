@@ -36,7 +36,19 @@ public class UserRemoteServiceImpl implements UserRemoteService {
      * @return
      */
     public String helloWorld() {
+        //返回
         return "你获得了用户数据!";
+    }
+
+    /**
+     * 实现
+     *
+     * @param word
+     * @return
+     */
+    public String helloWorld2(String word) {
+        //返回
+        return String.format("你获得了用户数据,传入参数为[%s]", word);
     }
 
 }

@@ -20,4 +20,10 @@ public class ProductController {
         return productService.getUserData();
     }
 
+    @GetMapping("/getUserData2")
+    public String getUserData2(String word) {
+        //实现
+        return productService.getUserData2(word);
+    }
+
 }

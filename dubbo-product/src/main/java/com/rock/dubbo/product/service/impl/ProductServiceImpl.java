@@ -22,4 +22,9 @@ public class ProductServiceImpl implements ProductService {
         return userRemoteService.helloWorld();
     }
 
+    public String getUserData2(String word) {
+        //实现
+        return userRemoteService.helloWorld2(word);
+    }
+
 }
