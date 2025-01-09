@@ -30,7 +30,7 @@
             <artifactId>dubbo-spring-boot-starter</artifactId>
         </dependency>
 
-        <!--spring cloud-->
+        <!-- spring cloud alibaba -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
