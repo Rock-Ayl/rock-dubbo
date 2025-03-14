@@ -19,6 +19,11 @@
         <module>dubbo-product-api</module>
     </modules>
 
+    <properties>
+        <!-- 指定全局 language level 版本 -->
+        <maven.compiler.release>8</maven.compiler.release>
+    </properties>
+
     <!--统一控制依赖版本-->
     <dependencyManagement>
 
